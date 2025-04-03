@@ -27,6 +27,17 @@ void moverRainha() {
         i++;
     } while (i < 8);
 }
+
+// MOVIMENTO DO CAVALO EM L
+void moverCavalo() {
+    for (int i = 0; i < 1; i++) {
+        printf("Baixo\n");
+        printf("Baixo\n");
+        for (int j = 0; j < 1; j++) {
+            printf("Esquerda\n");
+        }
+    }
+}
 int main() {
     printf("=== Nível Novato ===\n");
     printf("Movimente a torre:\n");
@@ -38,5 +49,8 @@ int main() {
     printf("\nMovimente a rainha:\n");
     moverRainha();
     
+    printf("\n=== Nível Aventureiro ===\n");
+    printf("Movimente o cavalo:\n");
+    moverCavalo();
     return 0;
 }
